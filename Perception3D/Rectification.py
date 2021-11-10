@@ -86,7 +86,7 @@ class StereoRectification:
         newImageSize = (int(self.imageSize[0] / ratio), int(self.imageSize[1] / ratio))
         
         # Implement stereoRectify here
-        ret = cv.stereoRectify(self.cameraMatrixLeft, self.distCoeffsLeft, self.cameraMatrixLeft, self.distCoeffsRight, self.imageSize, self.R, self.T)
+        ret = cv.stereoRectify(self.cameraMatrixLeft, self.distCoeffsLeft, self.cameraMatrixRight, self.distCoeffsRight, self.imageSize, self.R, self.T, alpha=alpha, newImageSize=newImageSize)
         RLeft = ret[0]
         RRight = ret[1]
         PLeft = ret[2]
