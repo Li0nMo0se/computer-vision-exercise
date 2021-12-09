@@ -21,7 +21,7 @@ Computer vision exercises using [OpenCV](https://opencv.org/)
 
 ### Report
 
-A report for every part can be found [here](report.pdf). You can find mathematical explanations and visual results.
+A report (in french) for every part can be found [here](report.pdf). You can find mathematical explanations and visual results.
 <a href="report.pdf">![](report_title_page.png)</a>
 
 ### 3D perspective
